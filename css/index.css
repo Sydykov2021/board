@@ -38,10 +38,12 @@
 	
 	}
          .scroll{
-         overflow:auto;
-	width:50%;
-	height:auto;
-	min-height:400px;
+         height: auto; /* высота нашего блока */
+         width: 50%; /* ширина нашего блока */
+         
+         border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+         overflow-x: scroll; /* прокрутка по горизонтали */
+         overflow-y: scroll; /* прокрутка по вертикали */
          }
 	 .board{
 		 border-radius:15px;
