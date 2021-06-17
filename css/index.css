@@ -37,6 +37,12 @@
 	height:100%;
 	
 	}
+         .scroll{
+         overflow:auto;
+	width:50%;
+	height:auto;
+	min-height:400px;
+         }
 	 .board{
 		 border-radius:15px;
 		background-color:#d4a34e;
