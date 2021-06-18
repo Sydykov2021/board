@@ -19,6 +19,9 @@
 		<div class="sidebar2">
 			<div id="vue">
 			<h3>{{ message }}</h3>
+			<ul>
+			<li v-for='item in items'>{{ item.message }}</li>	
+			</ul>
 			</div>
 		</div>
 		<div class="scroll">
