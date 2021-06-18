@@ -16,8 +16,10 @@
 			<a href=# class="floating-button">Обучение</a>
 			<a href=other.html class="floating-button">Другое</a>
 		</div>
-		<div id="sidebar2">
+		<div class="sidebar2">
+			<div id="vue">
 			<h3>{{ message }}</h3>
+			</div>
 		</div>
 		<div class="scroll">
 		<div class="board">
@@ -37,7 +39,7 @@
 		</div>
 		<script>
 		var app = new Vue({
-			el: '#sidebar2',
+			el: '#vue',
 			data: {
 			message:"Лучшие объявления",
 			}
